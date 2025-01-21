@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.static('public')); // Serve static files for frontend
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/webservice')
+mongoose.connect('mongodb+srv://rajapandey8769:mscVwt8olbbxUO7q@cluster1.h25fu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1')
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
 
